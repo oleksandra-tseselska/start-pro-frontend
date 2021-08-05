@@ -1,6 +1,5 @@
-var r = 20;
-var h = 100;
-var rSquared = r * r;
-var volume = Math.PI * rSquared * h;
+var radiusCylinder = 20;
+var heightCylinder = 100;
+var volumeCylinder = Math.PI * Math.pow(radiusCylinder, 2) * heightCylinder;
 
-console.log('volume --->', volume);
+console.log('volumeCylinder --->', volumeCylinder);
