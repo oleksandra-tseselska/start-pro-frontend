@@ -38,3 +38,16 @@ if(routeKilometers > poundsConvertKilometers) {
   alert('Расстояние в футах больше, чем расстояние в километрах')
 };
 
+// Homework 5
+
+var multiplicand = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var multiplyFactor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (var i = 0; i < multiplicand.length; i++) {
+    if(i > 0) {
+      console.log('--/--/--/--/--/');
+    }
+  for (var j = 0; j < multiplyFactor.length; j++) {
+    console.log(`"${multiplicand[i]} * ${multiplyFactor[j]}=" ${multiplicand[i] * multiplyFactor[j]}`);
+  }
+}
