@@ -38,3 +38,30 @@ if(routeKilometers > poundsConvertKilometers) {
   alert('Расстояние в футах больше, чем расстояние в километрах')
 };
 
+// Homework 6
+
+var letters = ['a', 'b', 'c'];
+letters.push(1, 2, 3);
+
+
+var numbersArrayFlipped = [1, 2, 3];
+numbersArrayFlipped[0] = 3;
+numbersArrayFlipped[2] = 1;
+
+
+var numbersArraySecond = [1, 2, 3];
+var numbersArrayThird = [4, 5, 6];
+var arrNumbers = [...numbersArrayThird, ...numbersArraySecond];
+
+
+var programmingLanguages = ['js', 'css', 'jq'];
+document.write(programmingLanguages[0]);
+
+
+var numbersArrayFourth = [1, 2, 3, 4, 5];
+var numbersArrayFifth = numbersArrayFourth.slice(0, 3);
+
+
+var fromPairs = (array) => { return `{'${array[0][0]}': ${array[0][1]}, '${array[1][0]}': ${array[1][1]}}`};
+const data = [['a', 1], ['b', 2]];
+console.log('fromPairs(data)-->', fromPairs(data));
