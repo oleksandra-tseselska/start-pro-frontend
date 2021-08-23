@@ -62,6 +62,6 @@ var numbersArrayFourth = [1, 2, 3, 4, 5];
 var numbersArrayFifth = numbersArrayFourth.slice(0, 3);
 
 
-var fromPairs = (array) => { return `{'${array[0][0]}': ${array[0][1]}, '${array[1][0]}': ${array[1][1]}}`};
-const data = [['a', 1], ['b', 2]];
+const data = [ ['a', 1], ['b', 2] ];
+var fromPairs = (array) => { return Object.fromEntries(array) };
 console.log('fromPairs(data)-->', fromPairs(data));
